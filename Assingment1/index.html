@@ -1,15 +1,25 @@
-<!DOCTYPE html> 
-<html> 
-  <head>
-    <link rel="stylesheet" href="style.css">
-		<script src="https://d3js.org/d3.v5.min.js">		</script>
-    <script src="main.js" defer></script>
-  </head>
+<!DOCTYPE html>
 
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
   <body>
-    <h3>Climate change attributable deaths:</h3>
-    <div id="viz"></div>   
-    <ol id="legend"></ol>     
-	</body>
-  
+    <h2>D3 and Javascript assignment - Information Visualization</h2>
+    <h3>Brechje Boeklagen (11021462) - 21 February 2019</h3>
+    <div><svg class='bar-chart'></svg></div>
+    <div class="flip-control">
+      <p id="prev"> <img class='left' src='arrow_icon.png'> </p>
+      <p id='year'>2011</p>
+      <p id="next"> <img class='right' src='arrow_icon.png'> </p>
+    </div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-time.v1.min.js"></script>
+<script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+    <script src="main.js"></script>
+
+
+
+  </body>
 </html>

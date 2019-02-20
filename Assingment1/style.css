@@ -1,0 +1,27 @@
+.bar-chart {
+    background-color: #C7D9D9;
+}
+
+svg text.bartext{
+  font-size: 9px;
+  font-family: arial;
+
+}
+
+.left, .right{
+  height: 20px;
+  width: 20px;
+}
+
+#year{
+  margin-left: 30px;
+  margin-top: -38px;
+  padding: 0px 10px 0px 10px;
+  margin-bottom: -36px;
+}
+
+.right{
+  transform: rotate(180deg);
+  margin-left: 91px;
+
+}
